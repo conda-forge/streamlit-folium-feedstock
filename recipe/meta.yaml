@@ -25,14 +25,10 @@ requirements:
     - streamlit >=0.79
 
 test:
-  imports:
-    - streamlit_folium
-    - folium
   commands:
-    - pip check
+    - python -m pip check
   requires:
     - pip
-    - streamlit >=0.79
 
 about:
   home: https://github.com/randyzwitch/streamlit-folium
