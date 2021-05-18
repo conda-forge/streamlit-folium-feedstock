@@ -22,6 +22,7 @@ requirements:
   run:
     - folium >=0.11
     - streamlit >=0.79
+    - python >=3.6
 
 test:
   commands:
