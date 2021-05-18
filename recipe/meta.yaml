@@ -18,15 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python>=3.6
   run:
-    - folium >=0.11
-    - python >=3.6
-    - streamlit >=0.79
+    - folium>=0.11
+    - streamlit>=0.79
 
 test:
   commands:
-    - python -m pip check
+    - pip check
   requires:
     - pip
 
