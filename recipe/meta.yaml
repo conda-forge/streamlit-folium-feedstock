@@ -24,12 +24,6 @@ requirements:
     - streamlit >=0.79
     - python >=3.6
 
-test:
-  commands:
-    - pip check
-  requires:
-    - pip
-
 about:
   home: https://github.com/randyzwitch/streamlit-folium
   summary: Render Folium objects in Streamlit
