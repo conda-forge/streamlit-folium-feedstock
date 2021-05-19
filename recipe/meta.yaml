@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - folium 0.0.0, >=0.11
+    - folium >=0.11,!=0.12.0
     - streamlit >=0.79
     - python >=3.6
 
