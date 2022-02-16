@@ -16,11 +16,12 @@ build:
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
+  build:
+    - nodejs
+    - npm
   host:
     - pip
     - python >=3.7
-    - nodejs
-    - npm
   run:
     - folium >=0.11
     - streamlit >=1.2
