@@ -1,5 +1,5 @@
 {% set name = "streamlit-folium" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/streamlit_folium-{{ version }}.tar.gz
-  sha256: a484898dc4fad545f6b024fe6c15ed62ac7318e3410f21c5c8bcad2216ac25a4
+  sha256: 931947138bf87a14f72f461c8a5fb63b18771262b756a778b9c71b44490ab7c5
 
 build:
   number: 0
