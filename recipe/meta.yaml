@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/streamlit_folium-{{ version }}.tar.gz
-  sha256: 83eec9e826bc0f2d3a2f2fa56772a54df4954360
+  sha256: c9d9df3938ae9cd3797425353a9bafbf62661e5e88654387c66ff9364228ba03
 
 build:
   number: 0
