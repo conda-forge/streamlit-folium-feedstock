@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - folium >=0.13
+    - folium >=0.13,<0.15
     - streamlit >=1.13
     - python >=3.7
     - branca
