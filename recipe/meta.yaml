@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools
   run:
     - folium >=0.13,!=0.15
     - streamlit >=1.13
