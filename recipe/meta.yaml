@@ -1,5 +1,5 @@
 {% set name = "streamlit-folium" %}
-{% set version = "0.25.0" %}
+{% set version = "0.25.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/streamlit_folium-{{ version }}.tar.gz
-  sha256: f32eb51c1958705030e15045a38edaf9c046d6de5e6587e64190251466a4a006
+  sha256: 0653bd8dfd7a230cf9c3a1250ac2360fb9809b6fbe0e91c3544432ae2c0222da
 
 build:
   number: 0
@@ -20,6 +20,7 @@ requirements:
     - pip
     - python {{ python_min }}
     - setuptools
+    - uv-build
   run:
     - folium >=0.13,!=0.15
     - streamlit >=1.35
